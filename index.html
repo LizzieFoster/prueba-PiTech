@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <style>
+            header{
+                height: 50px;
+                background-color: white;
+                padding: 20px;
+            }
+            body{
+                background-color: lightsteelblue;
+            }
+            .row{
+                width: 100%; 
+                text-align: center;
+            }
+            div.container{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+            .sum{
+                font-weight: bold;
+                color: white;
+                text-align: center;
+                height: 40%;
+            }
+            a.option{
+                box-shadow: 0 0 5px grey;
+                background-color: white;
+                padding: 20px;
+                margin: 10px;
+                border-radius: 10px;
+                text-align: center;
+            }
+            a.option:hover{
+                background-color: lightgray;
+                cursor:pointer;
+            }
+            .options > .row {
+                margin: 50px 0;
+            }
+            hr{
+                width: 250px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header class="row">
+                <p>Seleccione el resutado de la siguente suma.</p>
+            </header>
+            <div class="sum row">
+                <p>13.064</p>
+                <p>+ 66,318</p>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="options">
+                    <div class="row">
+                        <a class="option">79,382</a>
+                        <a class="option">53,459</a>
+                    </div>
+                    <div class="row">
+                        <a class="option">12,193</a>
+                        <a class="option">96,408</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
